@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="refresh" content="3;url=https://forms.gle/j5ZGq9TvHjA5oG399">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>正在跳转...</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%);
+      min-height: 100vh;
+      font-family: 'Segoe UI', 'PingFang SC', 'Hiragino Sans', Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .site-title {
+      position: fixed;
+      top: 18px;
+      left: 24px;
+      z-index: 20;
+      font-size: 1.35rem;
+      font-weight: bold;
+      color: #6366f1;
+      letter-spacing: 2px;
+      background: rgba(255,255,255,0.85);
+      padding: 6px 18px 6px 12px;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(99,102,241,0.08);
+      user-select: none;
+      pointer-events: none;
+    }
+    .ad-banner {
+      width: 100vw;
+      background: linear-gradient(90deg, #6366f1 0%, #60a5fa 100%);
+      color: #fff;
+      text-align: center;
+      padding: 16px 0;
+      font-size: 1.1rem;
+      letter-spacing: 1px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 10;
+      box-shadow: 0 2px 8px rgba(99,102,241,0.1);
+    }
+    .container {
+      margin-top: 80px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .flip-card {
+      background: transparent;
+      width: 340px;
+      height: 220px;
+      perspective: 1000px;
+      margin-bottom: 32px;
+    }
+    .flip-card-inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      transition: transform 1s cubic-bezier(.4,2,.6,1);
+      transform-style: preserve-3d;
+    }
+    .flip-card.flipped .flip-card-inner {
+      transform: rotateY(180deg);
+    }
+    .flip-card-front, .flip-card-back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+      border-radius: 18px;
+      box-shadow: 0 8px 32px rgba(60,72,100,0.12);
+      background: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .flip-card-front {
+      color: #374151;
+    }
+    .flip-card-back {
+      transform: rotateY(180deg);
+      color: #2563eb;
+      background: linear-gradient(135deg, #e0e7ff 0%, #f1f5f9 100%);
+    }
+    .loader {
+      margin: 24px auto 0;
+      border: 6px solid #e0e7ff;
+      border-top: 6px solid #6366f1;
+      border-radius: 50%;
+      width: 48px;
+      height: 48px;
+      animation: spin 1s linear infinite;
+    }
+    @keyframes spin {
+      0% { transform: rotate(0deg);}
+      100% { transform: rotate(360deg);}
+    }
+    .redirect-info {
+      margin-top: 18px;
+      color: #64748b;
+      font-size: 1rem;
+    }
+    .ad-link {
+      color: #fff;
+      text-decoration: underline;
+      margin-left: 8px;
+      font-weight: 500;
+    }
+    .copyright {
+      width: 100vw;
+      text-align: center;
+      color: #a1a1aa;
+      font-size: 0.98rem;
+      padding: 18px 0 12px 0;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      background: rgba(255,255,255,0.7);
+      z-index: 9;
+      letter-spacing: 1px;
+      user-select: none;
+    }
+    @media (max-width: 400px) {
+      .flip-card { width: 95vw; height: 180px;}
+      .site-title { left: 8px; font-size: 1.1rem; padding: 4px 10px 4px 8px;}
+    }
+  </style>
+</head>
+<body>
+  <div class="site-title">正在前往 Hatasoft工作室官方反馈网站</div>
+  <div class="ad-banner">
+    <span>广告：发现更多精彩内容，访问
+      <a class="ad-link" href="https://hatasoft365.top" target="_blank" rel="noopener">Hatasoft工作室官方网站</a>
+    </span>
+  </div>
+  <div class="container">
+    <div class="flip-card" id="flipCard">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <div style="font-size:2.2rem; font-weight:600; margin-bottom:12px;">正在跳转</div>
+          <div class="loader"></div>
+          <div class="redirect-info">请稍候，页面即将自动跳转...</div>
+        </div>
+        <div class="flip-card-back">
+          <div style="font-size:1.5rem; font-weight:500; margin-bottom:10px;">即将前往</div>
+          <a href="https://forms.gle/j5ZGq9TvHjA5oG399" style="font-size:1.1rem; color:#22c55e; text-decoration:underline; display:inline-flex; align-items:center;gap:6px;">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" style="vertical-align:middle;" xmlns="http://www.w3.org/2000/svg">
+              <path d="M10 2L17 5V9.5C17 14.5 10 18 10 18C10 18 3 14.5 3 9.5V5L10 2Z" fill="#22c55e"/>
+              <path d="M7.5 10.5L9.5 12.5L13 9" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            Hatasoft工作室反馈表单（官方）
+          </a>
+          <div class="loader"></div>
+          <div class="redirect-info">如未自动跳转，请点击上方链接</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    &copy; 2025 Hatasoft工作室 | 保留所有权利
+  </div>
+  <script>
+    // 1.5秒后卡片翻转
+    setTimeout(() => {
+      document.getElementById('flipCard').classList.add('flipped');
+    }, 1500);
+    // 3秒后跳转
+    setTimeout(() => {
+      window.location.href = "https://forms.gle/j5ZGq9TvHjA5oG399";
+    }, 3000);
+  </script>
+</body>
+</html>
